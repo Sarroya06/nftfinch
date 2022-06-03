@@ -1,0 +1,21 @@
+<section class="product">
+  <div class="container">
+    <h1 class="text-center">Featured Arts</h1>
+    <div class="row">
+
+          <div class="card  col-12 col-sm-12 col-lg-4 col-md-6 col-xl-3" *ngFor="let pd of product">
+            <img src="{{pd.image}}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">{{pd.desc}}</h5>
+              <p class="card-text">Price:<strong>{{pd.price}}</strong></p>
+
+            </div>
+            <button class="buybtn">Buy Now</button>
+          </div>
+
+
+        </div>
+      </div>
+  </section>
+
+
