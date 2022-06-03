@@ -1,0 +1,209 @@
+.banner {
+  background-image: url("../../assets/contact.jpg");
+  text-align: center;
+  color: #fff;
+
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.banner-text {
+  padding: 200px 0 150px 0;
+}
+.banner-heading {
+  font-family: poppins, sans-serif;
+  font-size: 75px;
+  font-weight: 700;
+  line-height: 100px;
+  margin-bottom: 30px;
+  color: #fff;
+}
+.banner-sub-heading {
+  font-family: poppins, sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 30px;
+  margin-bottom: 50px;
+  color: #fff;
+}
+
+.btn-banner {
+  padding: 5px 20px;
+  border-radius: 10px;
+  font-weight: 700;
+  line-height: 1.5;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+}
+.text-intro {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.hr-line {
+  padding-bottom: 2px;
+  width: 100px;
+  margin-left: 500px;
+  border-bottom: 2px solid #ff0000;
+}
+
+.heading-section {
+  margin-top: 100px;
+}
+
+.img-fluid {
+  padding-top: 100px;
+  padding-left: 80px;
+}
+
+.hr-badge {
+  width: 100px;
+  padding-bottom: 2px;
+  border-bottom: 1px solid #ff0000;
+}
+
+@media only screen and (max-width: 768px) {
+  section .section4 .mob-cstm {
+    display: block;
+    margin-bottom: 30px;
+  }
+  section.section4 {
+    display: none;
+  }
+
+  .banner-text {
+    padding: 150px 0 0px 0;
+  }
+  .banner-heading {
+    font-family: poppins, sans-serif;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 39px;
+    margin-bottom: 37px;
+    color: #fff;
+    width: 100%;
+  }
+  .banner-sub-heading {
+    font-family: poppins, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 25px;
+    margin-bottom: 37px;
+    margin-left: 10px;
+    color: #fff;
+    width: 100%;
+  }
+  .banner {
+    background-image: url("../../assets/notgeneric_bg3.jpg");
+    text-align: center;
+    color: #fff;
+
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 373px;
+  }
+
+  img {
+    vertical-align: middle;
+    border-style: none;
+    width: 100%;
+  }
+  .h1,
+  h1 {
+    font-size: 1.5rem;
+  }
+  .h2,
+  h2 {
+    font-size: 24px;
+  }
+  .hr-badge {
+    width: 100px;
+    padding-top: 0px;
+    border-bottom: 3px solid #082760;
+    margin: 15px 0px;
+  }
+  .img-fluid {
+    padding-top: 0px;
+    padding-left: 0px;
+  }
+  .heading-section {
+    margin-top: 30px;
+    margin-left: 24px;
+    font-family: poppins, sans-serif;
+  }
+  .heading {
+    font-family: poppins, sans-serif;
+    margin-bottom: 13px;
+    margin-left: 23px;
+  }
+  p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-left: 26px;
+  }
+  dl,
+  ol,
+  ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-left: 12px;
+  }
+  .btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    margin-left: 30px;
+  }
+  .first {
+    padding-left: 23px;
+    font-family: poppins, sans-serif;
+  }
+  .h4,
+  h4 {
+    font-size: 1.5rem;
+    margin-left: 22px;
+  }
+  .section4 {
+    padding-bottom: 0px;
+  }
+  .hr-line {
+    padding-bottom: 2px;
+    width: 100px;
+    margin-left: 105px;
+    border-bottom: 3px solid #082760;
+  }
+  .section1 {
+    background-color: #ebf1f7;
+    padding-bottom: 30px;
+  }
+
+  .collapse navbar-collapse {
+    display: block;
+  }
+
+  img {
+    margin-left: 15px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .card-img-top {
+    width: 260px;
+    height: 300px;
+    padding-left: 0px;
+    padding-top: 0px;
+  }
+}
